@@ -7,7 +7,6 @@
 body {
   background-color: oklch(0.928 0.006 264.531);
   color: black;
-  text-transform: uppercase;
   font-family: "Sono", sans-serif;
   padding: 40px;
 }
@@ -47,6 +46,11 @@ h1 {
   background-color: oklch(0.968 0.007 247.896);
   margin-bottom: 16px;
   padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -1px;
+
+  gap: 24px;
 }
 
 .tag {
@@ -56,6 +60,10 @@ h1 {
   padding-top: 3px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.vote-buttons {
+  margin-left: auto;
 }
 
 ul {
