@@ -8,7 +8,13 @@ body {
   background-color: oklch(0.928 0.006 264.531);
   color: black;
   font-family: "Sono", sans-serif;
-  padding: 40px;
+  padding: 48px 63px;
+}
+
+/* Main Layout*/
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .header {
@@ -37,6 +43,11 @@ body {
   align-items: center;
   gap: 16px;
 }
+.logo img {
+  width: 68px;
+  height: 68px;
+}
+
 h1 {
   font-size: 42px;
   text-transform: uppercase;
